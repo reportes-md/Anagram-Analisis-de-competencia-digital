@@ -1,0 +1,5 @@
+{
+  "name": "Anagram: AI Digital Competitive Analysis",
+  "description": "An application to perform competitive analysis in digital advertising. The user enters the brand, category, and country, and the AI generates a complete report with charts, tables, and qualitative explanations.",
+  "requestFramePermissions": []
+}
