@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from '@google/genai';
 import type { AnalysisData } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: Import.meta.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 const responseSchema = {
   type: Type.OBJECT,
